@@ -67,3 +67,5 @@ group :test do
 end
 
 gem 'psych'
+
+gem 'webpacker'
