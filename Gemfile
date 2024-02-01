@@ -8,7 +8,7 @@ gem 'rails', '~> 7.1.3'
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem 'sprockets-rails'
 
-# Use sqlite3 as the database for Active Record
+# Use postgresql as the database for Active Record
 gem 'pg', '~> 1.1'
 
 # Use the Puma web server [https://github.com/puma/puma]
@@ -66,6 +66,8 @@ group :test do
   gem 'selenium-webdriver'
 end
 
-gem 'psych'
+gem 'rubocop', '>= 1.0', '< 2.0'
+
+gem 'psych', '5.1.1.1'
 
 gem 'webpacker'
