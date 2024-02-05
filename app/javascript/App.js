@@ -4,7 +4,7 @@ import Greeting from "./components/Greeting";
 
 const App = () => {
   return <>
-    <h1>Hello reviewer :)</h1>
+    <h1>Hello World</h1>
     <Routes>
       <Route path="/" element={<Greeting/>}/>
     </Routes>
